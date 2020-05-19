@@ -90,6 +90,7 @@ public class Player : MonoBehaviour
 
     private void OnTriggerEnter(Collider other) 
     {
+        //Debug.Log("Player entrou no Trigger");
         // ##################### CHAVES ####################
         if(other.gameObject.CompareTag("keyGreen"))
         {

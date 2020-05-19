@@ -31,6 +31,13 @@ public class GameController : MonoBehaviour
 
     [Header("CommandsList")]
     public List <string> commands;
+
+    [Header("Dialog")]
+    public GameObject cientist;
+    public GameObject cientistText;
+
+    public GameObject zero;
+    public GameObject zeroText;
     private void Awake() 
     {
         //**** Singleton *****
